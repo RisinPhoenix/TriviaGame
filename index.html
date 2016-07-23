@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Chess Easy Trivia Game</title> <!-- Page Title -->
+			<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			<script src="https://code.jquery.com/jquery.js"></script>
+
+			
+	</head>
+	<body>
+		<div class="container">
+       		<div class="row" id="first">
+       			<div class="col-md-12" >
+       				<h1><strong>Chess Trivia</strong></h1> <!-- Title on page -->
+       			</div>		
+            </div>
+        </div>
+
+        <br>
+
+		<div class="container">
+  			<div class="jumbotron"> <!-- Jumbotron -->
+  				<div class="chessQuestion results"> <!-- Space holder: for the Question & later Results --> 
+  				</div>
+  				<div class="answerOne correctAnswer"> <!-- Space holder: For question one and later for number of correct answers -->
+  				</div>
+  				<div class="answerTwo incorrectAnswer"> <!-- Space holder: For question two and later for number of incorrect answers  -->
+  				</div>
+  				<div class="answerThree percentage"> <!-- Space Holder: For question three and later Correct Answers Divided by 10 -->
+  				</div>
+  				<div class="answerFour playAgain"> <!-- Space Holder: For question four and later the play again button  -->
+  				</div>
+  				<br>
+  				<div> 
+  					<img class="picture chessBoard"  src="assets/images/chessboard.jpg" alt="Chess Board" style="width:300px;height:300px;padding:0px;border:0px;margin:0px;possition:absolute;">
+  				</div>
+  			</div> 
+		</div>
+
+		<br>
+
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-12">
+					<br>
+					<h1><strong>Instructions:</strong></h1> 
+
+					<p>You will be asked to a question about chess. Click on your best answer!
+					<br> You start with a value of zero and the crystals are all assigned random values between one and twelve. Everytime you click on a crystal it adds it's value to your value. Use the crystals to create the value equal to the computers number.</p>
+				</div>
+			</div>
+		</div>
+			
+		<div>
+			<br><br>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" id="last">
+						<p id="copy"> &copy; Copyright2016 David Bunner</p>
+				</div>
+			</div>
+		</div>
+	
+
+	
+	<div id="numAttemps">
+	</div>
+
+		<script src="assets/javascript/game.js"></script>
+	
+
+
+
+	</body>
+</html>
